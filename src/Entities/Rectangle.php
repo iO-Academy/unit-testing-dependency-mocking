@@ -9,10 +9,10 @@ class Rectangle implements CanCalculateArea
     private float $width;
     private float $height;
 
-    public function __construct(float $width)
+    public function __construct(float $width, float $height)
     {
         $this->width = $width;
-        $this->height = $width;
+        $this->height = $height;
     }
 
     public function calculateArea(): float
